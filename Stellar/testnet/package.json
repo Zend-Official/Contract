@@ -1,0 +1,12 @@
+{
+  "name": "zend-escrow-testnet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "create:usdc": "node create-usdc.mjs",
+    "test:live": "node live-test.mjs"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "17.4.0"
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "runId": "1794051533401",
+  "network": "testnet",
+  "transactions": [
+    {
+      "label": "create-test-accounts",
+      "hash": "43d303ba6dc5248fbd602250f6e171fe9bd6bcc07d1bfa642da23f1d8a0946dd",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "configure-central-2-of-2-multisig",
+      "hash": "0666a7d60f09c6a46d7a58a177046c00e60304a4bfab67c5898fa1f2d4542fce",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "create-USDC-trustlines",
+      "hash": "663b440480b3333cd4abcfaef267031fc0f1ce04879aa46ad7c88e62fd7e5d44",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "fund-buyer-100-USDC",
+      "hash": "dafb44681fce92ab208df22f04fa6532f6dc3fff4f55a008f20688e2d5ea5ded",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "upload-escrow-wasm",
+      "hash": "144730b9810c3ebf1a85ed21c6d6c41bf43e4ffcec7ad10622f7daf99d67b604",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "deploy-escrow",
+      "hash": "733556a777a0decd58d038c0e10574fd330b57afd9fe382e6aaa0bc6568ee553",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "fund-release-order",
+      "hash": "53cc089507cd3f64e901e2e49635856ecfbeccdd5125549cef33d4d23344599f",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "fund-order-admin-fallback",
+      "hash": "a9d9281f5ba1bc6d7d76bc965b4d9e9dfe3cedfb205c5f38e14a36fcb6ac96c1",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "release-to-seller",
+      "hash": "d424f07c4413bcca317c6849b6167911f6b109b19f6bc0f7b09323ce55babace",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "fund-refund-admin-fallback",
+      "hash": "f278b800e14c8e9c7d6ac1bdb858fd55821daf0e18e097e9f733cd141031c231",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "fund-refund-order",
+      "hash": "56d329ff5024dfc5c8871658af03dc96c3b100e7d0e028723a969e1426eb3a3f",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "extend-funded-order-TTL",
+      "hash": "41effd3e218f7977b3fe0f802dfb1a0546c662dd594f2a39bb764926638e1bfb",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "pause-contract",
+      "hash": "ea7e84b3e3a9da7866daa987728cc00435f28b1bee8a4e524fc9c9b7b5bcdcc5",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "unpause-contract",
+      "hash": "834a5f4efc033347f5912a7269eae9c21c501858ad813d394b827a95dfb539d5",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "refund-full-deposit",
+      "hash": "62403ea8a162e2af1be984a62be89a32640069fb8211acbb7981af5b78b81965",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "fund-single-recovery",
+      "hash": "0d27f821cf82e23f64e629f104656b285f1c9955c94e12205061d8c7a9ed018e",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "recover-single-order",
+      "hash": "0bae359006def0cf9eef11bbbb29dca94718c2cfcf1cff110f5339c92010688f",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "fund-batch-order-A",
+      "hash": "08dd5008933bca91626e07031b6594964d4e7e22a741b99e268bfd21e3a71cbb",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "fund-batch-order-B",
+      "hash": "06591a8c9a25233c2571d3bb480d2f0d11c3de717cde1a7835e4fc695fc14ac3",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "recover-batch-of-two",
+      "hash": "c328335e46fc9f7971e2a7d56b1d8963fc1b53d1447859fb3a23022b4246c8d6",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "change-treasury",
+      "hash": "17afff051b351bf86b1505385aa94ef55d6deb3001af3a87065e728dc0057667",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "restore-treasury",
+      "hash": "f616f03f03520094437544824d9e1fcc3fca625f55a4f2b59510c974688eda50",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "propose-new-central-admin",
+      "hash": "71ac1c5bc1eb92b2ee4db28ff00debcc8690d4b9db67f377bc47e37128c5bfe6",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "accept-central-admin",
+      "hash": "529408b0b1077dcaa5b461b1b05bb4b710716d4e1c568332ad9b8d45a8019e2f",
+      "status": "SUCCESS"
+    },
+    {
+      "label": "upgrade-to-same-tested-wasm",
+      "hash": "e2355621ed37d2fceb732e389f61645b4c97b4c6ab7c637c5b7778e79dbd1039",
+      "status": "SUCCESS"
+    }
+  ],
+  "checks": [
+    {
+      "name": "backend ID encoding matches contract",
+      "status": "passed"
+    },
+    {
+      "name": "buyer cannot approve creation alone",
+      "status": "passed"
+    },
+    {
+      "name": "central admin cannot debit buyer alone",
+      "status": "passed"
+    },
+    {
+      "name": "funding locks 10.1 USDC and collects no fee",
+      "status": "passed"
+    },
+    {
+      "name": "duplicate funded order rejected",
+      "status": "passed"
+    },
+    {
+      "name": "gas cannot release funds",
+      "status": "passed"
+    },
+    {
+      "name": "buyer cannot release funds",
+      "status": "passed"
+    },
+    {
+      "name": "release pays 9.9 USDC to seller and 0.2 USDC in fees",
+      "status": "passed"
+    },
+    {
+      "name": "second release rejected",
+      "status": "passed"
+    },
+    {
+      "name": "altered fee cannot unlock funded entry",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks create_and_fund",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks release",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks refund",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks emergency_recover",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks emergency_recover_batch",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks extend_order_ttl",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks set_treasury",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks propose_admin",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks accept_admin",
+      "status": "passed"
+    },
+    {
+      "name": "pause blocks upgrade",
+      "status": "passed"
+    },
+    {
+      "name": "only central admin can unpause",
+      "status": "passed"
+    },
+    {
+      "name": "refund returns principal and buyer fee",
+      "status": "passed"
+    },
+    {
+      "name": "order admin cannot use central recovery",
+      "status": "passed"
+    },
+    {
+      "name": "duplicate recovery batch rejected",
+      "status": "passed"
+    },
+    {
+      "name": "rejected batch leaves both deposits funded",
+      "status": "passed"
+    },
+    {
+      "name": "recovery transfers full deposits and closes entries",
+      "status": "passed"
+    },
+    {
+      "name": "previous central admin loses authority",
+      "status": "passed"
+    },
+    {
+      "name": "treasury update, two-step admin transfer, and upgrade",
+      "status": "passed"
+    }
+  ],
+  "issues": [
+    {
+      "name": "unfunded-order-admin",
+      "status": "failed",
+      "error": "HostError: Error(Auth, InvalidAction)\n\nEvent log (newest first):\n   0: [Diagnostic Event] contract:CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7, topics:[error, Error(Auth, InvalidAction)], data:\"escalating error to VM trap from failed host function call: require_auth\"\n   1: [Diagnostic Event] contract:CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7, topics:[error, Error(Auth, InvalidAction)], data:[\"failed account authentication with error\", GA55LTRVTONLQ7FG75EY663CJA2P5WOYFMDNGXHU7YL25PXTQTVDV6LJ, Error(Storage, MissingValue)]\n   2: [Diagnostic Event] contract:CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7, topics:[error, Error(Storage, MissingValue)], data:\"trying to get non-existing value for account\"\n   3: [Diagnostic Event] topics:[fn_call, CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7, release], data:{buyer: GD6PBSXB4G4TNYTLDOVNYU6QP2DGWYB5GFEJC7E4F5MCFCG7P3ZSR6LB, buyer_fee: 1000000, order_admin: GA55LTRVTONLQ7FG75EY663CJA2P5WOYFMDNGXHU7YL25PXTQTVDV6LJ, order_hash: Bytes(c5c2c21d7f23e65f2aa18465000fd3fb11273bb9d08f99346f3032d9461d47d1), price: 100000000, seller: GAAHG7OQ4FQSU4RSAKXCJLVZVRQMANG2RSPHKUNIOMRG4U5XNJRTI6C5, seller_fee: 1000000}\n",
+      "workaround": "Create ledger accounts for test order admins before normal settlement."
+    }
+  ],
+  "wallets": {
+    "central": "GBB3Y5VV2JDPLDDK3IMO5OSCZOZ5COOD3W6JJIJ2QOWOD2A7MGFF3Z3X",
+    "centralSecond": "GDFDQWHVTU3H2DGDYTI7IH43OGJZS6B2YZNMC5JR4LA2I2HHKCZSPXTR",
+    "buyer": "GD6PBSXB4G4TNYTLDOVNYU6QP2DGWYB5GFEJC7E4F5MCFCG7P3ZSR6LB",
+    "seller": "GAAHG7OQ4FQSU4RSAKXCJLVZVRQMANG2RSPHKUNIOMRG4U5XNJRTI6C5",
+    "treasury": "GA2P4PYC2IGEK3ICX4SX323554MMVBYYNY6MH2GNOHJOZ4PBIHXKWLI3",
+    "nextAdmin": "GDIAOLUPXAWTBB6LGY4D53BLX2JG4FEDB5PYAOQ3GOPHXQMNLVUZLJFI",
+    "gas": "GCPD4JO3W6RT4CIMKAIEAPVZ4NGJHXMEYSFTQH463UJTYVGTBWQC5WWE"
+  },
+  "wasmHash": "7f4f0f328876f1b6f71dd7c679f41f87b12897c3c078be62de1ff8f49eb7bfeb",
+  "status": "completed-with-issues",
+  "contractId": "CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7",
+  "orders": [
+    {
+      "name": "releaseAdmin",
+      "order_hash": "c5c2c21d7f23e65f2aa18465000fd3fb11273bb9d08f99346f3032d9461d47d1",
+      "buyer": "GD6PBSXB4G4TNYTLDOVNYU6QP2DGWYB5GFEJC7E4F5MCFCG7P3ZSR6LB",
+      "seller": "GAAHG7OQ4FQSU4RSAKXCJLVZVRQMANG2RSPHKUNIOMRG4U5XNJRTI6C5",
+      "price": "100000000",
+      "buyer_fee": "1000000",
+      "seller_fee": "1000000",
+      "order_admin": "GA55LTRVTONLQ7FG75EY663CJA2P5WOYFMDNGXHU7YL25PXTQTVDV6LJ"
+    },
+    {
+      "name": "refundAdmin",
+      "order_hash": "0c6c26cc995e23e3bdcb29436c19d2dd02291598e369b5e812b3f91e2e370849",
+      "buyer": "GD6PBSXB4G4TNYTLDOVNYU6QP2DGWYB5GFEJC7E4F5MCFCG7P3ZSR6LB",
+      "seller": "GAAHG7OQ4FQSU4RSAKXCJLVZVRQMANG2RSPHKUNIOMRG4U5XNJRTI6C5",
+      "price": "100000000",
+      "buyer_fee": "1000000",
+      "seller_fee": "1000000",
+      "order_admin": "GCADK27ASDINLGUHBMJDBX2ANO6S2DWYENUG5FSA3252B63AJSCKISHJ"
+    },
+    {
+      "name": "recoveryAdmin",
+      "order_hash": "976e355fe932069b21b0151e11f6d9ca09b2f35ed8f4f580c6018dd302c51ebe",
+      "buyer": "GD6PBSXB4G4TNYTLDOVNYU6QP2DGWYB5GFEJC7E4F5MCFCG7P3ZSR6LB",
+      "seller": "GAAHG7OQ4FQSU4RSAKXCJLVZVRQMANG2RSPHKUNIOMRG4U5XNJRTI6C5",
+      "price": "100000000",
+      "buyer_fee": "1000000",
+      "seller_fee": "1000000",
+      "order_admin": "GDVN35Q2IMHKEI7MSO46N7NNR4PYLGLP2QG42B27JZUC2F4YGDNSYRWN"
+    },
+    {
+      "name": "batchAdminA",
+      "order_hash": "96c0cc7ac6c75d0298ce514d084db8fbd2c0edc5bf848681c578426b1c93f4ae",
+      "buyer": "GD6PBSXB4G4TNYTLDOVNYU6QP2DGWYB5GFEJC7E4F5MCFCG7P3ZSR6LB",
+      "seller": "GAAHG7OQ4FQSU4RSAKXCJLVZVRQMANG2RSPHKUNIOMRG4U5XNJRTI6C5",
+      "price": "100000000",
+      "buyer_fee": "1000000",
+      "seller_fee": "1000000",
+      "order_admin": "GDSUTN2DMKV757LSDQY5VSEERNTZ2BGZU45MTZI2TYY763Q7U7C3H2JS"
+    },
+    {
+      "name": "batchAdminB",
+      "order_hash": "79a51b5074612043f89accd1e2da69976268f87f1c513aaccf9a12e7e1783de0",
+      "buyer": "GD6PBSXB4G4TNYTLDOVNYU6QP2DGWYB5GFEJC7E4F5MCFCG7P3ZSR6LB",
+      "seller": "GAAHG7OQ4FQSU4RSAKXCJLVZVRQMANG2RSPHKUNIOMRG4U5XNJRTI6C5",
+      "price": "100000000",
+      "buyer_fee": "1000000",
+      "seller_fee": "1000000",
+      "order_admin": "GACPNX74OXB6RKLGPVJWUHXA7QMHVQANM7JX3XDZ6ZD2WG6AJZCX22ME"
+    }
+  ],
+  "refundBuyerBefore": "899000000"
+}

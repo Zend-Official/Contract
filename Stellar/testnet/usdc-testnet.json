@@ -1,0 +1,12 @@
+{
+  "network": "testnet",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "rpcUrl": "https://soroban-testnet.stellar.org",
+  "assetCode": "USDC",
+  "issuer": "GDJTE5I6XKDA2G4E3X5YTDHXKY3BWTJGO4R7GEZOQ5TR46DAJZBJTJVU",
+  "distributor": "GCPD4JO3W6RT4CIMKAIEAPVZ4NGJHXMEYSFTQH463UJTYVGTBWQC5WWE",
+  "contractId": "CCN3EV5SDMWNJ5G73JCHKBCNBNF3HAMR32YMG5UEQOT5F543NHFBNNBG",
+  "decimals": 7,
+  "distributorBalanceRaw": "10000000000000",
+  "credentialFile": ".local/usdc.json"
+}
