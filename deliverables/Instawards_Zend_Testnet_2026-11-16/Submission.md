@@ -19,7 +19,7 @@ Both transactions emit events for the same committed contract order ID, `febb1ca
 
 ## Tests and issue resolution
 
-[Fresh contract test results](https://github.com/Zend-Official/Contract/blob/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/contract-test-results.txt), [current workflow verification](https://github.com/Zend-Official/Contract/blob/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/current-workflow-verification.json) and [issue-resolution notes](https://github.com/Zend-Official/Contract/blob/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/resolved-issues-and-edge-cases.md) are published on the TEst branch.
+[Fresh contract test results](https://github.com/Zend-Official/Contract/blob/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/contract-test-results.txt), [current workflow verification](https://github.com/Zend-Official/Contract/blob/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/current-workflow-verification.json) and [issue-resolution notes](https://github.com/Zend-Official/Contract/blob/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/resolved-issues-and-edge-cases.md) are published on the Instaaward-Deliverable-1 branch.
 
 All ten Rust unit tests passed in the captured run. The latest live workflow passed seventeen independent checks against the deployed WASM, source fingerprints, database receipt ledgers and on-chain creation, closure and token-transfer events.
 
@@ -27,4 +27,4 @@ The historical suite contains 28 passing assertions and an explicitly recorded u
 
 ## Final builder step
 
-The builder has supplied the [recorded walkthrough](https://youtu.be/2ycGXpK9WXE). Review the recording and evidence links before submission. This evidence package is published on the TEst branch. Submission to the chapter lead remains a builder step.
+The builder has supplied the [recorded walkthrough](https://youtu.be/2ycGXpK9WXE). Review the recording and evidence links before submission. This evidence package is published on the Instaaward-Deliverable-1 branch. Submission to the chapter lead remains a builder step.

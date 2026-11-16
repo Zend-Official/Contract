@@ -1,14 +1,14 @@
-Evidence package on the TEst branch
-https://github.com/Zend-Official/Contract/tree/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16
+Evidence package on the Instaaward-Deliverable-1 branch
+https://github.com/Zend-Official/Contract/tree/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16
 
 Latest contract test results
-https://github.com/Zend-Official/Contract/blob/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/contract-test-results.txt
+https://github.com/Zend-Official/Contract/blob/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/contract-test-results.txt
 
 Latest funding and release verification
-https://github.com/Zend-Official/Contract/blob/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/current-workflow-verification.json
+https://github.com/Zend-Official/Contract/blob/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/current-workflow-verification.json
 
 Resolved issues and edge cases
-https://github.com/Zend-Official/Contract/blob/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/resolved-issues-and-edge-cases.md
+https://github.com/Zend-Official/Contract/blob/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/resolved-issues-and-edge-cases.md
 
 Deployed Testnet contract
 https://stellar.expert/explorer/testnet/contract/CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7

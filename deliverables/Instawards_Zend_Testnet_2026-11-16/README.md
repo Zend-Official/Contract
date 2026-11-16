@@ -4,9 +4,9 @@ Prepared on 16 November 2026. All blockchain evidence in this folder is Stellar 
 
 ## GitHub links
 
-- [Complete evidence package on the TEst branch](https://github.com/Zend-Official/Contract/tree/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16)
-- [Latest contract test results](https://github.com/Zend-Official/Contract/blob/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/contract-test-results.txt)
-- [Latest funding and release verification](https://github.com/Zend-Official/Contract/blob/TEst/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/current-workflow-verification.json)
+- [Complete evidence package on the Instaaward-Deliverable-1 branch](https://github.com/Zend-Official/Contract/tree/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16)
+- [Latest contract test results](https://github.com/Zend-Official/Contract/blob/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/contract-test-results.txt)
+- [Latest funding and release verification](https://github.com/Zend-Official/Contract/blob/Instaaward-Deliverable-1/deliverables/Instawards_Zend_Testnet_2026-11-16/Deliverable_2_Testing/current-workflow-verification.json)
 - [Contract repository](https://github.com/Zend-Official/Contract)
 - [Contract code](https://github.com/Zend-Official/Contract/blob/bee4af06961dcce673fdeb74f4a6dda00b7c16f1/Stellar/src/lib.rs)
 - [Contract tests](https://github.com/Zend-Official/Contract/blob/bee4af06961dcce673fdeb74f4a6dda00b7c16f1/Stellar/src/test.rs)
@@ -22,7 +22,7 @@ Prepared on 16 November 2026. All blockchain evidence in this folder is Stellar 
 
 The latest database payment is **z/mFaxJmD**, for **Vox bag**, displayed as **NGN 5000.00**. Its on-chain amount is **3.6979297 test USDC**. Funding and release were independently checked against contract and token events for the same committed order.
 
-Open Submission_Links.txt for copyable submission URLs. This evidence package is published on the contract repository's TEst branch. The pinned source links identify the reviewed contract revision. Submission to the chapter lead remains a builder step.
+Open Submission_Links.txt for copyable submission URLs. This evidence package is published on the contract repository's Instaaward-Deliverable-1 branch. The pinned source links identify the reviewed contract revision. Submission to the chapter lead remains a builder step.
 
 ## Video
 
