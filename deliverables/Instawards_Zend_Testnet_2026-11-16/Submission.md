@@ -6,7 +6,7 @@ All transactions below use Stellar Testnet and a custom test USDC asset. The com
 | --- | --- | --- |
 | Deliverable 1 | Link and repository link | [Deployed Testnet contract](https://stellar.expert/explorer/testnet/contract/CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7), [GitHub contract repository](https://github.com/Zend-Official/Contract), [pinned contract source](https://github.com/Zend-Official/Contract/blob/bee4af06961dcce673fdeb74f4a6dda00b7c16f1/Stellar/src/lib.rs) |
 | Deliverable 2 | Link and repository link with supporting files | [Deployed Testnet contract](https://stellar.expert/explorer/testnet/contract/CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7), [GitHub contract tests](https://github.com/Zend-Official/Contract/blob/bee4af06961dcce673fdeb74f4a6dda00b7c16f1/Stellar/src/test.rs), [published historical live report](https://github.com/Zend-Official/Contract/blob/bee4af06961dcce673fdeb74f4a6dda00b7c16f1/Stellar/testnet/live-report.json). Fresh results and issue-resolution notes are attached in Deliverable_2_Testing |
-| Deliverable 3 | Video recording and transaction hashes | Add the recording in Deliverable_3_Demo/Video. [Buyer funds escrow](https://stellar.expert/explorer/testnet/tx/cc78528f6939d4e69637ca16bb3f434c415003acd1005dd2fc8ee213a63c5b21) and [escrow pays vendor](https://stellar.expert/explorer/testnet/tx/e41be66213f5934e495e1eb76f6df55f10e71a8e4bb4a42d050cd826cad1786c) |
+| Deliverable 3 | Video recording and transaction hashes | [Recorded walkthrough](https://youtu.be/2ycGXpK9WXE). [Buyer funds escrow](https://stellar.expert/explorer/testnet/tx/cc78528f6939d4e69637ca16bb3f434c415003acd1005dd2fc8ee213a63c5b21) and [escrow pays vendor](https://stellar.expert/explorer/testnet/tx/e41be66213f5934e495e1eb76f6df55f10e71a8e4bb4a42d050cd826cad1786c) |
 
 ## Demonstrated transaction sequence
 
@@ -27,4 +27,4 @@ The historical suite contains 28 passing assertions and an explicitly recorded u
 
 ## Final builder step
 
-Add the recording and its filename or sharing URL before submission. This evidence package is published on the TEst branch. Submission to the chapter lead remains a builder step.
+The builder has supplied the [recorded walkthrough](https://youtu.be/2ycGXpK9WXE). Review the recording and evidence links before submission. This evidence package is published on the TEst branch. Submission to the chapter lead remains a builder step.

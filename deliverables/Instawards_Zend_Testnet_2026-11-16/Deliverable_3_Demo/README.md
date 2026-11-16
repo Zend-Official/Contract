@@ -1,10 +1,10 @@
 # Deliverable 3 recorded walkthrough
 
-## Add the recording
+## Video recording
 
-Copy your video into the Video folder, then replace this line with its filename or uploaded video URL.
+[Watch the recorded walkthrough](https://youtu.be/2ycGXpK9WXE)
 
-Video file or URL is awaiting the builder's recording.
+Recording link supplied by the builder.
 
 ## Payment shown in the recording
 

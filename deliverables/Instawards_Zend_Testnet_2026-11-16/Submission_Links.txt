@@ -30,3 +30,6 @@ https://stellar.expert/explorer/testnet/tx/cc78528f6939d4e69637ca16bb3f434c41500
 
 Latest release transaction
 https://stellar.expert/explorer/testnet/tx/e41be66213f5934e495e1eb76f6df55f10e71a8e4bb4a42d050cd826cad1786c
+
+Recorded walkthrough
+https://youtu.be/2ycGXpK9WXE

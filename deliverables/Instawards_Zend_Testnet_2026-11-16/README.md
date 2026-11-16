@@ -18,7 +18,7 @@ Prepared on 16 November 2026. All blockchain evidence in this folder is Stellar 
 | --- | --- | --- |
 | 1. Contract implementation | Deliverable_1_Contract | Source and deployed-contract links included |
 | 2. Deployment and testing | Deliverable_2_Testing | Current verified workflow, local test results, historical edge cases and resolution notes included |
-| 3. Recorded demonstration | Deliverable_3_Demo | Matching transaction hashes and recording guide included. Video to be added by the builder |
+| 3. Recorded demonstration | Deliverable_3_Demo | [Video recording](https://youtu.be/2ycGXpK9WXE), matching transaction hashes and walkthrough guide included |
 
 The latest database payment is **z/mFaxJmD**, for **Vox bag**, displayed as **NGN 5000.00**. Its on-chain amount is **3.6979297 test USDC**. Funding and release were independently checked against contract and token events for the same committed order.
 
@@ -26,7 +26,7 @@ Open Submission_Links.txt for copyable submission URLs. This evidence package is
 
 ## Video
 
-Place your recording in Deliverable_3_Demo/Video and update its README with the filename before submitting.
+[Watch the recorded walkthrough](https://youtu.be/2ycGXpK9WXE). The recording link is also included in Deliverable_3_Demo and Submission_Links.txt.
 
 ## Privacy
 
