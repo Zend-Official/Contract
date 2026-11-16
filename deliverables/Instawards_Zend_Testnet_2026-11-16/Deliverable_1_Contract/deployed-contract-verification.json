@@ -1,0 +1,38 @@
+{
+  "network": "testnet",
+  "contractId": "CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7",
+  "contractUrl": "https://stellar.expert/explorer/testnet/contract/CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7",
+  "repository": "https://github.com/Zend-Official/Contract",
+  "revision": "bee4af06961dcce673fdeb74f4a6dda00b7c16f1",
+  "wasmHash": "7f4f0f328876f1b6f71dd7c679f41f87b12897c3c078be62de1ff8f49eb7bfeb",
+  "priorCleanRebuildAt": "2026-11-14T14:52:07.993Z",
+  "sourceHashes": {
+    "Cargo.toml": "79ebbce8c5aeb5cdc2a62850421548d65685d0e93d050452ad25c9d52d6ee24c",
+    "Cargo.lock": "bc7612fdde4c8b162253c32615f323c416ec2be57285314cff8b1fb3e1654ee2",
+    "src/lib.rs": "2201f4bc026ff052ea8a5a79b7ea62c19db7011db84a28764213cbefa117d737",
+    "src/types.rs": "38af0a6386be3a5273ac29b689cdc9f3102d64f0be09f9a01018fa1ceae0118c"
+  },
+  "observedAt": "2026-11-16T16:54:02.729Z",
+  "checks": [
+    {
+      "name": "current deployed WASM matches reviewed build",
+      "status": "passed"
+    },
+    {
+      "name": "current source matches verified build for Cargo.toml",
+      "status": "passed"
+    },
+    {
+      "name": "current source matches verified build for Cargo.lock",
+      "status": "passed"
+    },
+    {
+      "name": "current source matches verified build for src/lib.rs",
+      "status": "passed"
+    },
+    {
+      "name": "current source matches verified build for src/types.rs",
+      "status": "passed"
+    }
+  ]
+}

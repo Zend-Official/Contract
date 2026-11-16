@@ -1,0 +1,170 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-11-16T16:54:02.729Z",
+  "network": "testnet",
+  "reference": "z/mFaxJmD",
+  "internalOrderId": "3166238e18054160a6d577cb9bcf00a794690df5a65cbfdd3baf602251e13e29",
+  "contractOrderId": "febb1ca24f61eb0796e373df98ffac88ca268105acc94497014a29414d04db2e",
+  "item": "Vox bag",
+  "displayedNgn": "5000.00",
+  "token": {
+    "code": "USDC",
+    "issuer": "GDJTE5I6XKDA2G4E3X5YTDHXKY3BWTJGO4R7GEZOQ5TR46DAJZBJTJVU",
+    "contract": "CCN3EV5SDMWNJ5G73JCHKBCNBNF3HAMR32YMG5UEQOT5F543NHFBNNBG",
+    "decimals": 7,
+    "description": "Custom Testnet USDC asset used for testing. No dollar backing."
+  },
+  "buyer": "GDUOHJ6MEKCPLTE2ITHG6WJHNWP4KMGY6LZNODP4R2F4GVBQLUV4W72F",
+  "vendor": "GCBFF7SN6U4AQ2QR6BVYJMEQTT6U63A5KYLIGJ7OKXQWFSX6AN6X4WGC",
+  "orderAdmin": "GANFJ3CERDFRUOAJDTZVIJSJ4TMFTRA33VEBX3QSR6HCAUKJ4VRXLHVR",
+  "depositUsdc": "3.6979297",
+  "vendorReceivedUsdc": "3.6979297",
+  "buyerFeeUsdc": "0.0000000",
+  "sellerFeeUsdc": "0.0000000",
+  "checks": [
+    {
+      "name": "fund transaction is successful on Testnet",
+      "status": "passed"
+    },
+    {
+      "name": "fund confirmed ledger matches database receipt",
+      "status": "passed"
+    },
+    {
+      "name": "release transaction is successful on Testnet",
+      "status": "passed"
+    },
+    {
+      "name": "release confirmed ledger matches database receipt",
+      "status": "passed"
+    },
+    {
+      "name": "current deployed WASM matches reviewed build",
+      "status": "passed"
+    },
+    {
+      "name": "current source matches verified build for Cargo.toml",
+      "status": "passed"
+    },
+    {
+      "name": "current source matches verified build for Cargo.lock",
+      "status": "passed"
+    },
+    {
+      "name": "current source matches verified build for src/lib.rs",
+      "status": "passed"
+    },
+    {
+      "name": "current source matches verified build for src/types.rs",
+      "status": "passed"
+    },
+    {
+      "name": "funding emits creation event for the selected order",
+      "status": "passed"
+    },
+    {
+      "name": "creation terms match committed buyer, seller and price",
+      "status": "passed"
+    },
+    {
+      "name": "USDC token event proves buyer funds entered escrow",
+      "status": "passed"
+    },
+    {
+      "name": "release emits closure for the same order",
+      "status": "passed"
+    },
+    {
+      "name": "closure names the committed recipient and exact amount",
+      "status": "passed"
+    },
+    {
+      "name": "USDC token event proves escrow paid the vendor",
+      "status": "passed"
+    },
+    {
+      "name": "funding and release occurred in separate ordered ledgers",
+      "status": "passed"
+    },
+    {
+      "name": "all seven creation-event term fields match the saved order",
+      "status": "passed"
+    }
+  ],
+  "transactions": {
+    "fund": {
+      "purpose": "fund",
+      "hash": "cc78528f6939d4e69637ca16bb3f434c415003acd1005dd2fc8ee213a63c5b21",
+      "explorerUrl": "https://stellar.expert/explorer/testnet/tx/cc78528f6939d4e69637ca16bb3f434c415003acd1005dd2fc8ee213a63c5b21",
+      "horizonUrl": "https://horizon-testnet.stellar.org/transactions/cc78528f6939d4e69637ca16bb3f434c415003acd1005dd2fc8ee213a63c5b21",
+      "status": "SUCCESS",
+      "ledger": 5764754,
+      "ledgerClosedAt": "2026-11-16T16:43:35.000Z",
+      "events": [
+        {
+          "contract": "CCN3EV5SDMWNJ5G73JCHKBCNBNF3HAMR32YMG5UEQOT5F543NHFBNNBG",
+          "topics": [
+            "transfer",
+            "GDUOHJ6MEKCPLTE2ITHG6WJHNWP4KMGY6LZNODP4R2F4GVBQLUV4W72F",
+            "CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7",
+            "USDC:GDJTE5I6XKDA2G4E3X5YTDHXKY3BWTJGO4R7GEZOQ5TR46DAJZBJTJVU"
+          ],
+          "data": "36979297"
+        },
+        {
+          "contract": "CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7",
+          "topics": [
+            "created",
+            "febb1ca24f61eb0796e373df98ffac88ca268105acc94497014a29414d04db2e"
+          ],
+          "data": {
+            "terms": {
+              "buyer": "GDUOHJ6MEKCPLTE2ITHG6WJHNWP4KMGY6LZNODP4R2F4GVBQLUV4W72F",
+              "buyer_fee": "0",
+              "order_admin": "GANFJ3CERDFRUOAJDTZVIJSJ4TMFTRA33VEBX3QSR6HCAUKJ4VRXLHVR",
+              "order_hash": "588c2cba5a8088d92e8d0e1fd3d6698f5c3f7894c4cedc0a8d143d327f095fb7",
+              "price": "36979297",
+              "seller": "GCBFF7SN6U4AQ2QR6BVYJMEQTT6U63A5KYLIGJ7OKXQWFSX6AN6X4WGC",
+              "seller_fee": "0"
+            }
+          }
+        }
+      ]
+    },
+    "release": {
+      "purpose": "release",
+      "hash": "e41be66213f5934e495e1eb76f6df55f10e71a8e4bb4a42d050cd826cad1786c",
+      "explorerUrl": "https://stellar.expert/explorer/testnet/tx/e41be66213f5934e495e1eb76f6df55f10e71a8e4bb4a42d050cd826cad1786c",
+      "horizonUrl": "https://horizon-testnet.stellar.org/transactions/e41be66213f5934e495e1eb76f6df55f10e71a8e4bb4a42d050cd826cad1786c",
+      "status": "SUCCESS",
+      "ledger": 5764762,
+      "ledgerClosedAt": "2026-11-16T16:44:15.000Z",
+      "events": [
+        {
+          "contract": "CCN3EV5SDMWNJ5G73JCHKBCNBNF3HAMR32YMG5UEQOT5F543NHFBNNBG",
+          "topics": [
+            "transfer",
+            "CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7",
+            "GCBFF7SN6U4AQ2QR6BVYJMEQTT6U63A5KYLIGJ7OKXQWFSX6AN6X4WGC",
+            "USDC:GDJTE5I6XKDA2G4E3X5YTDHXKY3BWTJGO4R7GEZOQ5TR46DAJZBJTJVU"
+          ],
+          "data": "36979297"
+        },
+        {
+          "contract": "CBGEFI5QAOE4TQXIIGMTIXQNYU6TTV6HC5JFRTBQOWF3Y4JM326OQ7S7",
+          "topics": [
+            "closed",
+            "febb1ca24f61eb0796e373df98ffac88ca268105acc94497014a29414d04db2e"
+          ],
+          "data": {
+            "action": "release",
+            "amount": "36979297",
+            "fee": "0",
+            "recipient": "GCBFF7SN6U4AQ2QR6BVYJMEQTT6U63A5KYLIGJ7OKXQWFSX6AN6X4WGC",
+            "treasury": "GA2P4PYC2IGEK3ICX4SX323554MMVBYYNY6MH2GNOHJOZ4PBIHXKWLI3"
+          }
+        }
+      ]
+    }
+  }
+}

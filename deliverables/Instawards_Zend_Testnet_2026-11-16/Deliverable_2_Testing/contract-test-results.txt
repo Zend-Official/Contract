@@ -1,0 +1,30 @@
+Zend escrow contract test results
+Observed at 2026-11-16T16:55:38.688Z
+Command: cargo test --manifest-path ../Contract/Stellar/Cargo.toml --locked
+Exit code: 0
+
+
+running 10 tests
+test test::admin_transfer_requires_successor_acceptance_and_revokes_old_admin ... ok
+test test::altered_terms_cannot_unlock_an_existing_deposit ... ok
+test test::creation_requires_central_approval_and_buyer_debit_authorization ... ok
+test test::duplicate_recovery_rolls_back_entire_batch ... ok
+test test::invalid_money_terms_and_insufficient_balance_leave_no_entry ... ok
+test test::recovery_requires_central_admin_and_uses_current_treasury ... ok
+test test::pause_blocks_all_writes_except_central_unpause ... ok
+test test::only_the_committed_order_admin_can_normally_settle ... ok
+test test::refund_returns_buyer_fee_and_collects_no_fee ... ok
+test test::release_pays_committed_destinations_and_closes_once ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.17s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+Build and runner output
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.78s
+     Running unittests src\lib.rs (C:\Users\HER\Documents\Zend\App\Contract\Stellar\target\debug\deps\zend_escrow-6a608e13f02e7dbb.exe)
+   Doc-tests zend_escrow
